@@ -1,0 +1,8 @@
+thunk:
+
+- accepts an action type string and function that returns promise, And genrate a thunk  dispatches pending/fullfiled/rejected action style based on that promise
+
+- thunk is not a part of slice but its method in toolkit
+
+- create thunk using synatx createAsyncthunk()
+
